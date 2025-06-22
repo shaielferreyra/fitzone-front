@@ -1,0 +1,39 @@
+.marcas-scroll {
+  overflow: hidden;
+  width: 100%;
+  background-color: #af0303;
+  padding: 10px 0;
+  border-top: 1px solid  #1c1c1c;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.marcas-contenido {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  animation: scroll-marcas 8s linear infinite;
+  white-space: nowrap;
+}
+
+.marcas-contenido img {
+  height: 50px;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: transform 0.3s, opacity 0.3s;
+  filter: grayscale(100%);
+}
+
+.marcas-contenido img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+@keyframes scroll-marcas {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
