@@ -1,0 +1,50 @@
+
+.routine-packs-section {
+  background-color: #121212;
+  padding: 60px 0;
+}
+
+.plan-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.2);
+}
+
+.plan-card h4 {
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+.plan-card p {
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.plan-card button {
+  background-color: #ff3333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.plan-card button:hover {
+  background-color: #cc0000;
+}
+
+.list-group-item {
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #222;
+}
