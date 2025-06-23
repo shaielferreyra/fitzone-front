@@ -1,0 +1,21 @@
+.slider-container {
+  margin-top: 0px;
+}
+
+.carousel-caption h3 {
+  color: #ff0000;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.carousel-caption p {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.carousel-item img {
+  max-height: 700px;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
