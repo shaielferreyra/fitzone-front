@@ -1,0 +1,65 @@
+.profesores-section {
+  background-color: #121212;
+  padding: 60px 0;
+  color: white;
+}
+
+.card-profesor {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-profesor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+}
+
+.img-profesor {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.contenido-profesor {
+  padding: 1rem;
+}
+
+.contenido-profesor h4 {
+  color: #ff3333;
+  margin-bottom: 10px;
+}
+
+.especialidad {
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+.horario {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-bottom: 15px;
+}
+
+.btn-vermas {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn-vermas:hover {
+  background-color: #a71d2a;
+}
